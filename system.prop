@@ -115,8 +115,19 @@ ro.qti.sensors.bte=true
 ro.qti.sensors.gtap=true
 ro.qti.sensors.vmd=true
 
+# Storage
+ro.sys.sdcardfs=true
+
 # Time services
 persist.timed.enable=true
 
 # Wifi
 wifi.interface=wlan0
+
+# onyx Hardware Info
+ro.device.chipset=Qualcomm Snapdragon 801
+ro.device.cpu=Quad-core 2.3 GHz Krait 400
+ro.device.gpu=Adreno 330
+ro.device.rear_cam=13MP
+ro.device.front_cam=8MP
+ro.device.screen_res=1080x1920
