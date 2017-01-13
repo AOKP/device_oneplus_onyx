@@ -4,8 +4,10 @@
     "target_path": "device/oppo/common"
   },
   {
-    "repository":  "android_kernel_oneplus_onyx",
-    "target_path": "kernel/oneplus/onyx"
+    "remote": "github",
+    "repository":  "CheckYourScreen/Arsenic.Kernel",
+    "target_path": "kernel/oneplus/onyx",
+    "branch": "stable"
   },
   {
     "repository": "android_packages_resources_devicesettings",
