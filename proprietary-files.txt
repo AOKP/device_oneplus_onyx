@@ -105,23 +105,14 @@ etc/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_2_0.fw
 
-# DRM
--framework/com.google.widevine.software.drm.jar
-bin/qseecomd
-etc/permissions/com.google.widevine.software.drm.xml
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libWVStreamControlAPI_L3.so
-vendor/lib/libdrmdiag.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
-vendor/lib/librpmb.so
-vendor/lib/libssd.so
-vendor/lib/libtzdrmgenprov.so
-vendor/lib/libwvdrm_L3.so
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so
-vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so
-vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so
+# DRM (from bacon)
+bin/qseecomd|182eef5507dfa2d75a34f28dc9cd750ca5eacb09
+lib/libdrmdecrypt.so|5013edf1475337001f85389fa0dad8bb7755fd59
+vendor/lib/libQSEEComAPI.so|5c948ad98ce3b5050a4c3f640541c39fb396d78f
+vendor/lib/libdrmfs.so|b5f8195820f73b32008a8e7c2bd67ab15d5563a9
+vendor/lib/libdrmtime.so|95b2a56d4be078ca53dc5acb9b1ae97003ed3940
+vendor/lib/librpmb.so|708921f0319f2356a2cd822d87c80366a04d8a7f
+vendor/lib/libssd.so|a1d98b27bffcd8047867738a84a02f53956ca0ff
 
 # GPS (from bacon)
 bin/loc_launcher|b920649a5a083473b51a6234783befc7c61978da
@@ -255,3 +246,10 @@ bin/time_daemon
 
 # Wcnss (from ham)
 lib/libwcnss_qmi.so|d17b527007d5a9d468403a2bcf71f35d997d74bf
+
+# Widevine (from bullhead)
+vendor/lib/libwvdrm_L1.so|3eaf8ed1cb337608a1ccdb80d2c95804e7aea323
+vendor/lib/libwvm.so|59c4c078f4b897ddac8f665309b7a3f25522f207
+vendor/lib/libWVStreamControlAPI_L1.so|6b28492ac55b9a3d86993343cf2c8b55240b3420
+vendor/lib/drm/libdrmwvmplugin.so|3bee766222895f524421eb996ca6a08bcf95f19f
+vendor/lib/mediadrm/libwvdrmengine.so|6bdcc4d59b07ccbdd7b07a99677406ade3d2e232
