@@ -1,8 +1,0 @@
-[
-  {
-    "remote": "aokp",
-    "repository": "AOKP/device_oppo_common",
-    "target_path": "device/oppo/common"
-    "branch": "nougat"
-  }
-]
