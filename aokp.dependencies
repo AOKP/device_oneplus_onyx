@@ -5,6 +5,6 @@
   },
   {
     "repository": "kernel_oneplus_onyx",
-    "target_path": "kernel/oneplus/onyx",
+    "target_path": "kernel/oneplus/onyx"
   }
 ]
