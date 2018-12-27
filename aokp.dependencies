@@ -1,0 +1,10 @@
+[
+  {
+    "repository":  "kernel_oneplus_onyx",
+    "target_path": "kernel/oneplus/onyx"
+  },
+  {
+    "repository": "device_oppo_common",
+    "target_path": "device/oppo/common"
+  }
+]
