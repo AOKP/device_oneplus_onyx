@@ -32,11 +32,8 @@ ro.bluetooth.sap=false
 ro.qualcomm.bt.hci_transport=smd
 
 # Camera
-camera.shutter_sound.blacklist=com.oneplus.camera
 camera2.portability.force_api=1
 persist.camera.cpp.duplication=false
-media.stagefright.legacyencoder=true
-media.stagefright.less-secure=true
 
 # RIL
 DEVICE_PROVISIONED=1
